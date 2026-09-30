@@ -40,5 +40,17 @@ JanSamvedan is an autonomous, multi-agent Digital Public Infrastructure (DPI) de
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/PhaniKartik/JanSamvedan.git](https://github.com/PhaniKartik/JanSamvedan.git)
-   cd JanSamvedan  
+   git clone https://github.com/PhaniKartik/JanSamvedan.git
+   cd JanSamvedan
+   
+   python -m venv venv
+   # On Windows:
+   .\venv\Scripts\activate
+   # On Mac/Linux:
+   source venv/bin/activate
+
+   pip install -r requirements.txt
+
+   GEMINI_API_KEY="your_api_key_here"
+
+   streamlit run app.py
