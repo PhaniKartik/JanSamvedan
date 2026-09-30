@@ -1,0 +1,9 @@
+streamlit
+pandas
+folium
+streamlit-folium
+streamlit-javascript
+python-dotenv
+pydantic
+google-genai
+requests
