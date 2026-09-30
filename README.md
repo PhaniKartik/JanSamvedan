@@ -38,7 +38,6 @@ JanSamvedan is an autonomous, multi-agent Digital Public Infrastructure (DPI) de
 
 ## 💻 Local Setup Instructions
 
-1. **Clone the repository:**
    ```bash
    git clone https://github.com/PhaniKartik/JanSamvedan.git
    cd JanSamvedan
